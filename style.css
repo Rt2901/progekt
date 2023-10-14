@@ -123,7 +123,6 @@ header {
 .main-section2 > div{
     display: flex;
     width: 1100px;
-    gap: 145px;
     border: 5px solid #8E32C6;
     margin: auto auto;
     justify-content: center;
@@ -131,9 +130,14 @@ header {
     padding-bottom: 25px;
 }
 .section-div{
-    border-right: 1px solid white;
+    width: calc(1100px / 3);
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .section-4{
     background-image: url('src/images/fgh.png');
