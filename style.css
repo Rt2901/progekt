@@ -1,0 +1,147 @@
+header {
+    display: flex;
+    background-color: #012D63;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    gap: 29px;
+}
+
+.header-language {
+    display: flex;
+    gap: 15px;
+}
+
+.header-logo {
+    width: 100px;
+    height: 60px;
+}
+
+.main-section1 {
+    background-image: url('src/images/golovna1.png');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 156px;
+}
+
+.section-scroll {
+    width: 40%;
+
+}
+
+.section-title {
+    margin: 0;
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+    line-height: 192px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.section-h2 {
+    margin: 0;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.section-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.section-batton {
+    background-color: rgb(97, 0, 97);
+    padding: 20px 35px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: white;
+    border-radius: 10px;
+    margin-top: 41px;
+    border-color: rgb(97, 0, 97);
+
+}
+
+.c-r {
+    margin: 0;
+    font-family: PT Serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.main-section2{
+    background-image: url('src/images/fon1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 105px;
+    padding-bottom: 105px;
+  
+    
+}
+
+.cart-text {
+    color: white;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+   
+
+}
+.main-section2 > div{
+    display: flex;
+    width: 1100px;
+    gap: 145px;
+    border: 5px solid #8E32C6;
+    margin: auto auto;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.section-div{
+    border-right: 1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-4{
+    background-image: url('src/images/fgh.png');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 156px;
+    color: white;
+}
