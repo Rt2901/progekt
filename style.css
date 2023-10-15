@@ -25,7 +25,7 @@ header {
 }
 
 .main-section1 {
-    background-image: url('src/images/golovna1.png');
+    background-image: url('src/images/golovna1.webp');
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
@@ -100,7 +100,7 @@ header {
 }
 
 .main-section2{
-    background-image: url('src/images/fon1.png');
+    background-image: url('src/images/fon1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 105px;
@@ -140,12 +140,43 @@ header {
 
 }
 .section-4{
-    background-image: url('src/images/fgh.png');
+    background-image: url('src/images/doh.webp');
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
     width: 100vw;
-    padding-left: 156px;
     color: white;
+}
+.section-4>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 220px;
+    padding-top: 220px;
+}
+h3{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+    background-image: url('src/images/grop5.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.button{
+    background-color: rgb(97, 0, 97);
+    padding: 15px 20px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: white;
+    border-radius: 10px;
+    margin-top: 41px;
+    border-color: rgb(97, 0, 97);
 }
