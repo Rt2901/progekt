@@ -30,8 +30,9 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     padding-left: 156px;
+    box-sizing: border-box;
 }
 
 .section-scroll {
@@ -147,7 +148,7 @@
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    max-width: 100vw;
     color: white;
     padding-top: 24px;
     padding-bottom: 114px;
@@ -198,7 +199,6 @@ h3 {
 }
 
 .section-6 {
-    display: flex;
     background-color: #012D63;
     padding-bottom: 40px;
 }
@@ -398,7 +398,7 @@ h3 {
     align-items: center;
 }
 
-.div-quetion {
+.footer-column {
     color: white;
     font-size: 24px;
     font-family: Roboto;
@@ -406,17 +406,35 @@ h3 {
     word-wrap: break-word;
 }
 
-.div-emeil {
-    color: white;
-    font-size: 24px;
-    font-family: Roboto;
-    font-weight: 400;
-    text-decoration: underline;
-    word-wrap: break-word;
-}
-.section-6{
+.section-6 {
     padding-left: 165px;
     padding-top: 45px;
     padding-bottom: 45px;
     padding-right: 165px;
+
+}
+
+body {
+    margin: 0;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.footer-botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
