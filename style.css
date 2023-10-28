@@ -173,8 +173,6 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 220px;
-    padding-top: 220px;
 }
 
 .button {
@@ -189,6 +187,8 @@ h3 {
     border-radius: 10px;
     margin-top: 41px;
     border-color: rgb(97, 0, 97);
+    margin-top: 19px;
+    margin-bottom: 37px;
 }
 
 .input {
@@ -337,7 +337,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .section-5-emeil {
@@ -349,7 +349,8 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .section-5-contry {
@@ -361,7 +362,8 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .section-5-city {
@@ -373,7 +375,8 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .section-5-adress {
@@ -385,5 +388,35 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-quetion {
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.div-emeil {
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-decoration: underline;
+    word-wrap: break-word;
+}
+.section-6{
+    padding-left: 165px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 165px;
 }
